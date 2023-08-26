@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const add1and1 = () => {
   return 1 + 1;
