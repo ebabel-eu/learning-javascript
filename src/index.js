@@ -1,6 +1,7 @@
 'use strict';
 
 const readline = require("readline");
+const add1and1 = require('./add1and1');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -13,7 +14,7 @@ const displayConsoleMenu = () => {
 
   rl.question('Select an option: ', (menuChoice) => {
     if (menuChoice === '1') {
-      console.log('1 + 1 = 2');
+      console.log(add1and1());
       displayConsoleMenu();
     }
   
