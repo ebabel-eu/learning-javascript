@@ -1,7 +1,7 @@
 'use strict';
 
 const readline = require("readline");
-const add1and1 = require('./add1and1');
+const add1and1 = require('./src/add1and1');
 
 const rl = readline.createInterface({
   input: process.stdin,

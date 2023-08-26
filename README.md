@@ -12,3 +12,6 @@ Combining Maths with Javascript in learning exercises.
 
 ## Lint
 `npm run lint`
+
+## Audit dependencies vulnerabilities
+`npm audit`
